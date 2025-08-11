@@ -10,6 +10,10 @@
   /* color: rgba(255, 255, 255, 0.87);
   background-color: #242424; */
 
+  --color-red: #DF6951;
+  --color-text: #5E6282;
+  --color-yellow: #F1A501;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,4 +27,14 @@
 body {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.header-text-font {
+  font-family: "Volkhov", serif;
+}
+
+@media screen and (max-width: 767.98px) {
+  body {
+    padding: 20px 10px;
+  }
 }
