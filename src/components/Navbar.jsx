@@ -9,7 +9,7 @@ const Navbar = () => {
                 <img className='h-full w-full' src={logo} alt="" />
             </div>
             <div className='flex gap-20'>
-                <ul className='flex gap-12 my-11 text-lg font-medium'>
+                <ul className='flex gap-12 my-11 text-lg font-medium cursor-pointer'>
                     <li>
                         <Link to={"/"}>Desitnations</Link>
                     </li>
@@ -24,10 +24,10 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className='flex justify-between gap-12 items-center text-lg font-medium'>
-                    <button>Login</button>
-                    <button>Sign up</button>
+                    <button className='cursor-pointer'>Login</button>
+                    <button className='border rounded-md py-2.5 px-5 cursor-pointer'>Sign up</button>
                     <div>
-                        <p>EN <span>^</span></p>
+                        <p>EN <span className='cursor-pointer'>^</span></p>
                     </div>
                 </div>
             </div>
